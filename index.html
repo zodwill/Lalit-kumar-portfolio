@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6b3c18a182.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span class="logo">PORTFOLIO</span>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="hero-section">
+                <div class="hero-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Lalit kumar</span> <br> From Jaipur, Rajasthan, India</h1>
+                </div>
+                <div class="hero-img">
+                    <img src="/img/p4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------about me ------------------  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/img/img.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A passionate Web developer with a passion for bringing ideas to life through coding.
+                        I have worked on various projects , form responsive websites to interactive web applications.
+                        I love tackling challenges and finding creative solutions.I have honed my skills in creating
+                        robust and user-friendly web applications.
+                    </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>
+                                Designing Web Interfaces
+                            </li>
+                            <li><span>Software Development</span><br>
+                                Developing Softwares
+                            </li>
+                            <li><span>Web Development</span><br>
+                                Developing websites by CMS/Coding
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li><span>feb/2024-current</span><br>
+                                Web Developer at Achintya Softech Hub and Pvt Ltd
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>
+                                BTech in CSE from Rajasthan Technical Unversity
+                            </li>
+                            <li><span>2019-2020</span><br>
+                                High School From DAV Centenary Public School , Jaipur
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- -------------------servicer---------------  -->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>FRONTEND DEVELOPMENT</h2>
+                    <p>
+                        Frontend development create the user interface and
+                        web applications . <br> Technologies used :- React.js ,Html , Css, Javascript, bootstrap.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>BACKEND DEVELOPMENT</h2>
+                    <p>Backend development involves building and maintaining the server-side of web applications,
+                        dealing with databases, server logic, and ensuring smooth communication between the server and
+                        the frontend.
+                        <br> Technologies used :- Python, Django, SQL, Apache, API's
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>SOFTWARE DEVELOPMENT</h2>
+                    <p>Software development is a multifaceted process that involves designing, coding, testing,
+                        deploying, and maintaining software applications. Here's an overview of the key aspects of
+                        software development:
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ---------------------my work---------------  -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                My Projects
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/img/work2.png" alt="">
+                    <div class="layer">
+                        <h3>Zomato Clone</h3>
+                        <p>This is a frontend clone of zomato website .This project was very helpful for me to
+                            enhance my frontend skills . Html, Css, JAVASCRIPT, React is used to build this project.
+                            I also used some components of react like react-slick slider in this project.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work4.png" alt="">
+                    <div class="layer">
+                        <h3>Quiz Site</h3>
+                        <p>Quiz website is a project in which we can add our work that we have to do in future 
+                            and to remember the work we can add that work in this website and after work completed
+                            ,we can delete the task from the list. React,Html,Css,javascript are used in this project.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work3.png" alt="">
+                    <div class="layer">
+                        <h3>To-Do list</h3>
+                        <p>To-Do list is my first project by using React.React is a JavaScript library for 
+                            building user interfaces and single-page applications. HTML, CSS, JAVASCRIPT, and REACT is 
+                            used. 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work1.png" alt="">
+                    <div class="layer">
+                        <h3>Forms</h3>
+                        <p>Forms are the mini projects that helps the developer to enhance their skills in their starting phase 
+                            of developing .This is a registration form designed and developed by me where HTML, CSS and JAVASCRIPT
+                            are used to . html for structuring ,css is for styling and Javascriptis used for providing some funcanality
+                            to the form like alerts, etc. 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work5.png" alt="">
+                    <div class="layer">
+                        <h3>Quora</h3>
+                        <p>My first mini frontend project is login and registration page of quora website in which HTML and CSS
+                            are used . HTML id used to provide the structure to the page and CSS is used to design and to style
+                            the page.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/img/work6.png" alt="">
+                    <div class="layer">
+                        <h3>Weather Monitoring System</h3>
+                        <p>A Weather Monitoring System is developed by me as a final year project in which data from
+                            surrounding is gathered by the sensors like bmp180, DHT sensor, LDR sensor and display the
+                            result on the Blynk IOT interface.Aurdino IDE is used for coding and esp8266 is used as a 
+                            wifi module.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- ----------------------contact--------------  -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>raolalityadav3276@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>(+91)6377340647</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/lalit-kumar-317181242"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/lalit_yadav_0872?igsh=enlpY3plZjdtOTB3"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/zodwill "><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="/img/Lalit_resume.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Mail" required>
+                        <input type="phone" name="Phone" placeholder="Contact Number" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------footer---------------  -->
+
+    <div class="copyright">
+        <p>© Copyright 2024. All Rights Reserved @Lalit kumar</p>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
