@@ -37,7 +37,7 @@ function closemenu() {
 
 
 
-const scriptURL = 'https://docs.google.com/spreadsheets/d/1A_ZEG-X77zXt-WBT3RnDFId9TOTD2njQRg_dndEtIOA/edit?gid=0#gid=0'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxZZxbSjduMJaPKn10JXhDyPJMK-XHr-CftMrN4LFjqIweFI7PQai1qn-naOFvo3oyO/exec'
 const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById('msg')
 
@@ -53,4 +53,5 @@ form.addEventListener('submit', e => {
         })
         .catch(error => console.error('Error!', error.message))
 })
+
 
