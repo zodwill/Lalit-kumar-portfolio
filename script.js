@@ -42,7 +42,7 @@ const form = document.forms['submit-to-google-sheets']
 const msg = document.getElementById('msg')
 
 form.addEventListener('submit', e => {
-    e.preventDefault()
+    //e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
             msg.innerHTML= "Message sent SUCCESSFULLY...."
@@ -53,6 +53,7 @@ form.addEventListener('submit', e => {
         })
         .catch(error => console.error('Error!', error.message))
 })
+
 
 
 
